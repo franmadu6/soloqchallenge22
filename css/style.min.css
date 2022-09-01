@@ -42,6 +42,7 @@ div#tabla{
 text-align:center;
 background-color: #854ece;
 border-radius: 1em;
+/*opacity: 11;*/
 
 }
 
@@ -66,6 +67,31 @@ img.iconogg{
 
 a.pies {
 color:#854ece;
+}
+
+/*RESPONSIVE INDEX*/
+
+@media (max-width: 992px) {
+    th.responsive{
+      display:none;
+      font-size: 1em;
+        }
+    td.responsive{
+      display:none;
+      font-size: 1em;
+        }
+
+}
+
+
+@media (max-width: 767px) {
+  img.iconogg{
+    width: 75%;
+    height: 75%;
+  }
+
+
+
 }
 
 /*LOGROS*/
@@ -96,6 +122,41 @@ img.logros{
   width: 40%;
   height: 40%
 }
+
+/*RESPONSIVE LOGROS*/
+
+@media (max-width: 992px) {
+    div#logros{
+    margin-top: 25%;
+    height: 100%;
+    width: 30em;
+    }
+    div#logromaster{
+      margin-left: 10%;
+      }
+
+}
+
+@media (max-width: 767px) {
+    div#logros{
+    margin-top: 45%;
+    height: 100%;
+    width: 155%;
+  
+    }
+    div#logromaster{
+    margin-left: 0%;
+    }
+    div.sublogros{
+      margin-left: 0%;
+    }
+    div#logrosbig{
+      margin-left: 1%;
+    }
+}
+
+
+
 
 /*OLD*/
 html, body {
@@ -819,30 +880,6 @@ section {
 /*==================================
 =            RESPONSIVE            =
 ==================================*/
-@media (max-width: 992px) {
-  .not-on-top #header-navbar {
-    position: fixed;
-    top: 0;
-    height: auto;
-    width: 100%;
-    background: #ff00cc;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    z-index: 11; }
-  #header-navbar {
-    padding-top: 15px !important;
-    padding-bottom: 15px !important; }
-  .navbar-transparent .navbar-collapse {
-    background: #ff00cc;
-    /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #333399, #ff00cc);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #333399, #ff00cc);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    padding: 10px; } }
 
 @media (max-width: 767px) {
   .jumbotron h1 {
