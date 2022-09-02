@@ -11,7 +11,7 @@ a#topbuttons{
 
 div#pulsador{
 height: 30%;
-margin-top: 6em;
+margin-top: 8em;
 margin-bottom: 2em;
 }
 
@@ -142,7 +142,7 @@ img.logros{
 
 @media (max-width: 992px) {
     div#logros{
-    margin-top: 5%;
+    margin-top: 25%;
     height: 100%;
     width: 30em;
     }
@@ -154,7 +154,7 @@ img.logros{
 
 @media (max-width: 767px) {
     div#logros{
-    margin-top: 5%;
+
     height: 100%;
     width: 155%;
   
