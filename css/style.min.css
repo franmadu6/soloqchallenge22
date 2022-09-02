@@ -142,7 +142,7 @@ img.logros{
 
 @media (max-width: 992px) {
     div#logros{
-    margin-top: 25%;
+    margin-top: 45%;
     height: 100%;
     width: 30em;
     }
@@ -154,7 +154,7 @@ img.logros{
 
 @media (max-width: 767px) {
     div#logros{
-
+      margin-top: 45%;
     height: 100%;
     width: 155%;
   
