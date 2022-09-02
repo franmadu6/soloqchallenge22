@@ -80,7 +80,9 @@ color:#854ece;
       display:none;
       font-size: 1em;
         }
-
+        div#pulsador{
+          margin-top: 1em;
+          }
 }
 
 
@@ -89,7 +91,9 @@ color:#854ece;
     width: 75%;
     height: 75%;
   }
-
+  div#pulsador{
+    margin-top: 1em;
+    }
 
 
 }
@@ -127,7 +131,7 @@ img.logros{
 
 @media (max-width: 992px) {
     div#logros{
-    margin-top: 25%;
+    margin-top: 5%;
     height: 100%;
     width: 30em;
     }
@@ -139,7 +143,7 @@ img.logros{
 
 @media (max-width: 767px) {
     div#logros{
-    margin-top: 45%;
+    margin-top: 5%;
     height: 100%;
     width: 155%;
   
