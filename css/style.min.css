@@ -122,6 +122,17 @@ margin-inline: 5%;
 
 }
 
+div.sublogroslargos{
+  margin: 2%;
+  border-radius: 1em;
+  background-color: #854ece;
+  text-align: center;
+  height: 10em;
+  width: 25%;
+  margin-inline: 5%;
+  
+  }
+
 img.logros{
   width: 40%;
   height: 40%
@@ -152,6 +163,9 @@ img.logros{
     margin-left: 0%;
     }
     div.sublogros{
+      margin-left: 0%;
+    }
+    div.sublogroslargos{
       margin-left: 0%;
     }
     div#logrosbig{
