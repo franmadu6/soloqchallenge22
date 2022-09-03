@@ -143,8 +143,12 @@ img#pentakill{
   height: 60%;
 }
 
+img#minions{
+  border-radius: 1em !important;
+}
+
 img#zhonias{
-  border-radius: 1em;
+  border-radius: 1em !important;
 }
 
 /*RESPONSIVE LOGROS*/
