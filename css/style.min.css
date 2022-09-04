@@ -52,6 +52,9 @@ table#rank{
   
 }
 
+th.elo{
+  width: 25%;
+}
 img.iconorank{
 height: 35%;
 width: 35%;
